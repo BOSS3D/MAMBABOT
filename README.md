@@ -57,6 +57,8 @@
 
 [![String](https://telegra.ph/file/74bb4f8bdf13862c366f0.jpg )](https://replit.com/@Jaggi444/MAMBABOT#main.py) 
 
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/BOSS3D/MAMBABOT)
+
     - Click On Generate String
     - Then Click On Green Run Button.
     - Wait for a while then fill the details.
