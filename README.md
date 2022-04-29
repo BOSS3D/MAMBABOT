@@ -28,17 +28,6 @@
 
 
 </a>
-
-- First Fork This Repo
-
-- Change Name Of Repo
-
-- Click Below Deploy To Heroku
-
-
-- [![Deploy](https://telegra.ph/file/74bb4f8bdf13862c366f0.jpg)](https://heroku.com/deploy/)
-
-
 ---------
 
 ## Variables
@@ -66,7 +55,7 @@
     - Now Run StringSession Given Below:
    
 
-[![String](https://telegra.ph/file/74bb4f8bdf13862c366f0.jpg "height=50" "width=40")](https://replit.com/@Jaggi444/MAMBABOT#main.py) 
+[![String](https://telegra.ph/file/74bb4f8bdf13862c366f0.jpg )](https://replit.com/@Jaggi444/MAMBABOT#main.py) 
 
     - Click On Generate String
     - Then Click On Green Run Button.
