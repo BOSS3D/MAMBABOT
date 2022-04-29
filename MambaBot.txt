@@ -1,0 +1,48 @@
+
+
+_get_repolink () {
+    local regex
+    regex='(https?)://github.com/.+/.+'
+    if [[ $MAMBA_REPO == "MAMBABOT" ]]
+    then
+        echo "aHR0cHM6Ly9naXRodWIuY29tL0JPU1MzRC9NQU1CQVVTRVJCT1QvYXJjaGl2ZS9NYW1iYUJvdC56aXA=" | base64 -d
+    elif [[ $MAMBA_REPO == "MAMBABOT" ]]
+    then
+        echo "aHR0cHM6Ly9naXRodWIuY29tL0JPU1MzRC9NQU1CQVVTRVJCT1QvYXJjaGl2ZS9NYW1iYUJvdC56aXA=" | base64 -d
+    elif [[ $MAMBA_REPO =~ $regex ]]
+    then
+        if [[ $MAMBA_REPO_BRANCH ]]
+        then
+            echo "${MAMBA_REPO}/archive/${MAMBA_REPO_BRANCH}.zip"
+        else
+            echo "${MAMBA_REPO}/archive/master.zip"
+        fi
+    else
+        echo "aHR0cHM6Ly9naXRodWIuY29tL0JPU1MzRC9NQU1CQVVTRVJCT1QvYXJjaGl2ZS9NYW1iYUJvdC56aXA=" | base64 -d
+    fi
+}
+
+
+_setting_bot () {
+    local zippath
+    zippath="MambaBot.zip"
+    echo "  Downloading MambaBot V3.O Source Code..."
+    wget -q $(_get_repolink) -O "$zippath"
+    echo "  Unpacking Data ..."
+    MAMBAPATH=$(zipinfo -1 "$zippath" | grep -v "/.");
+    unzip -qq "$zippath"
+    echo "Done"
+    echo "  MambaBot V3.O Cleaning.."
+    rm -rf "$zippath"
+    sleep 5
+    cd $MambaPATH
+    echo "    ⚜️Starting ʍǟʍɮǟɮօȶ⚜️     "
+    echo "
+    🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳
+    "
+
+    python3 ../setup/updater.py ../requirements.txt requirements.txt
+    python3 -m userbot
+}
+
+_setting_bot
