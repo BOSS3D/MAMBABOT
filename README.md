@@ -3,7 +3,7 @@
 <b> 『ʍǟʍɮǟ ɮօȶ』🇮🇳 </b>
 </h1>
 
-[![ʍǟʍɮǟ ɮօȶ](https://telegra.ph/file/.jpg)](https://github.com/SUKHPAL443/MAMBAUSERBOT)
+[![ʍǟʍɮǟ ɮօȶ](https://telegra.ph/file/74bb4f8bdf13862c366f0.jpg)](https://github.com/SUKHPAL443/MAMBAUSERBOT)
 
 <h6 align="center">
   <b>⚡ MambaBot Is One Of The Fastest & Smoothest Bot On Telegram Based on Telethon⚡</b>
@@ -36,7 +36,7 @@
 - Click Below Deploy To Heroku
 
 
-- [![Deploy](https://telegra.ph/file/.jpg)](https://heroku.com/deploy/)
+- [![Deploy](https://telegra.ph/file/74bb4f8bdf13862c366f0.jpg)](https://heroku.com/deploy/)
 
 
 ---------
