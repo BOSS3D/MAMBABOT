@@ -17,10 +17,12 @@
 ## Status Of Bot 
 <p align="left">
 ------
+  
 ## Telegram 🏪
+  
 - [![Telegram Group](https://img.shields.io/badge/Telegram-Group-brightgreen)](https://t.me/Legend_Userbot)
 - [![Telegram Channel](https://img.shields.io/badge/Telegram-Channel-brightgreen)](https://t.me/Official_LegendBot)
-
+</p>
 ------
 
 ------------
