@@ -66,7 +66,7 @@
     - Now Run StringSession Given Below:
    
 
-[![String](https://telegra.ph/file/.jpg)](https://replit.com/@KrishnaJaiswal1/LEGENDBOT#main.py) 
+[![String](https://telegra.ph/file/74bb4f8bdf13862c366f0.jpg)](https://replit.com/@Jaggi444/MAMBABOT#main.py) ##(https://replit.com/@KrishnaJaiswal1/LEGENDBOT#main.py) 
 
     - Click On Generate String
     - Then Click On Green Run Button.
